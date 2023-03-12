@@ -86,3 +86,15 @@ body {
     transition: 500ms;
     object-fit: cover;
 }
+
+@media (max-width:820px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:425px) {
+    html {
+        font-size: 8px;
+    }
+}
