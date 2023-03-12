@@ -1,0 +1,48 @@
+body {
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 100vh;
+}
+.tittle{
+    font-size: 2rem;
+}
+.list {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+.list__item {
+    list-style-type: none;
+    border-top: 1px gray solid;
+    padding: 1rem;
+}
+
+.mem__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mem__tittle {
+    font-size: 1rem;
+    margin: 0;
+}
+.mem__icon{
+    width: 1rem;
+    height: 1rem;
+}
+
+.mem__img {
+    margin-top: 1rem;
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
